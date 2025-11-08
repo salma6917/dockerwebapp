@@ -15,11 +15,11 @@ spec:
     spec:
       containers:
         - name: cont-1
-          image: shaikmustafa/socialmedia:app
+          image: salma6917/testing:app
           ports:
             - containerPort: 8080
       imagePullSecrets:
-        - name: flm
+        - name: dockerhub
 
 
 
